@@ -12,12 +12,12 @@
 body {
     font-family: Nunito, sans-serif;
     font-weight: bold;
-    background: linear-gradient(to right, white 50.7%, #e7edf5 50%);
+    background: linear-gradient(to right, white 50.7%, #bed5f3 50%);
 }
 
 .header {
     padding-top: 27px;
-    background: linear-gradient(to right, white 50.7%, #e7edf5 50%);
+    background: linear-gradient(to right, white 50.7%, #bed5f3 50%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -188,7 +188,7 @@ button,
 }
 
 .modal-content {
-    background: linear-gradient(to top, white 22%, #e7edf5 58%);
+    background: linear-gradient(to top, white 22%, #bed5f3 58%);
     padding: 32px;
     border-radius: 8px;
     text-align: center;
