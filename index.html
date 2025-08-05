@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>homeworks</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<header class="header">
+    <div class="container header__container">
+        <div class="header__logo">
+            <img src="images/homeWorks.png" class="logo-img" alt="logo">
+        </div>
+    </div>
+</header>
+
+<section class="main">
+    <div class="container main__container">
+        <div class="main__questionnaire">
+            <h1 id="form-title" class="main__title">
+                Get your free account
+            </h1>
+            <h2 class="main__description">
+                Try homeWorks BUSINESS free for 15 days. Downgrade to Basic (Free Forever) anytime.
+            </h2>
+            <div class="main__form">
+                <ul class="main__list">
+                    <li class="main__item">
+                        <div class="main__item__text">
+                            <p id="full-name-text" class="main__item__text-p">Full name</p>
+                            <input class="base-input" id="full-name" type="text">
+                            <p id="your-username-text" class="main__item__text-p">Your username</p>
+                            <input class="base-input" id="your-username" type="text">
+                            <p id="email-text" class="main__item__text-p">E-mail</p>
+                            <input class="base-input" id="email" type="text">
+                            <p id="password-text" class="main__item__text-p">Password</p>
+                            <input class="base-input" id="password" type="password">
+                            <p id="repeat-password-text" class="main__item__text-p">Repeat Password</p>
+                            <input class="base-input" id="repeat-password" type="password">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="main__agreement">
+                <div class="main__check">
+                    <input class="main__checkbox" id="checkbox" type="checkbox" >
+                </div>
+                <div class="main__terms__text">
+                    <h3 id="checkboxText" class="main__terms__text-h3">Agree to our Terms of Service and Privacy Statement</h3>
+                </div>
+            </div>
+            <button class="main__button" id="sign-up" type="button">Sign Up</button>
+            <button class="main__button hidden" id="sign-in" type="button">Sign In</button>
+            <div class="main__already-account">
+                <p id="login-link" class="main__already-account-p">Already have an account?</p>
+            </div>
+        </div>
+        <div class="main__picture">
+            <img src="images/rocket.png" class="main__picture-rocket" alt="rocket">
+        </div>
+    </div>
+</section>
+
+<div id="modal" class="modal hidden">
+    <div class="modal-content">
+        <p class="model-content-p">На вашу почту выслана ссылка, перейдите по ней, чтобы завершить регистрацию</p>
+        <button class="main__button btn" id="modal-ok">OK</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
