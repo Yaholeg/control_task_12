@@ -127,4 +127,7 @@ window.addEventListener('load', function () {
         }
         alert('Добро пожаловать, ' + userName.value + '!');
     })
+    let a = 4;
+    let b = 6;
+    console.log(a+b);
 });
