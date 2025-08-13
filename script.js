@@ -131,5 +131,6 @@ window.addEventListener('load', function () {
     let b = 6;
     console.log(a+b);
     console.log('Жареные гвозди');
+    console.log('Ну и гадость!');
     console.log('Спасибо, очень вкусно');
 });
